@@ -32,12 +32,19 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 bg-black/40 backdrop-blur-xl border-b border-white/10">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
 
-        {/* LOGO */}
+        {/* LOGO + NAME */}
         <div
-          className="text-lg md:text-xl font-extrabold cursor-pointer"
+          className="flex items-center gap-2 cursor-pointer"
           onClick={scrollToTop}
         >
-          Bahram <span className="text-blue-400">Muzaffarli</span>
+          <img
+            src="/hamster.png"
+            alt="Logo"
+            className="w-7 h-7 object-contain invert brightness-150"
+          />
+          <span className="text-lg md:text-xl font-extrabold">
+            Bahram <span className="text-blue-400">Muzaffarli</span>
+          </span>
         </div>
 
         {/* DESKTOP MENU */}
@@ -82,7 +89,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* MOBILE BUTTON */}
+        {/* MOBILE MENU ICON */}
         <button
           className="md:hidden text-2xl text-gray-200"
           onClick={() => setOpen(!open)}
@@ -107,7 +114,7 @@ export default function Navbar() {
             ))}
           </ul>
 
-          {/* SOCIAL ICONS MOBILE */}
+          {/* MOBILE SOCIAL ICONS */}
           <div className="flex items-center gap-4 px-6 pb-4">
 
             <a
@@ -121,7 +128,7 @@ export default function Navbar() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/bahram-muzaffarli/"
+              href="https://www.linkedin.com/in/bahram-muzaffarli-bhrmmuz/"
               target="_blank"
               className="p-2 rounded-xl border border-blue-500/30 bg-blue-600/30"
             >
