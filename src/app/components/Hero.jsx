@@ -29,10 +29,12 @@ export default function Hero() {
           {/* BUTTONS */}
           <div className="flex flex-wrap gap-4">
 
-            {/* DOWNLOAD CV – FIXED */}
+            {/* NEW DOWNLOAD CV BUTTON */}
             <a
               href="/bahram-muzaffarli-cv.pdf"
               download
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-5 py-3 rounded-full bg-blue-600 hover:bg-blue-500 font-medium text-sm md:text-base shadow-lg shadow-blue-500/30 transition-transform hover:-translate-y-0.5"
             >
               Download CV
@@ -43,7 +45,8 @@ export default function Hero() {
               onClick={() => {
                 const el = document.getElementById("projects");
                 if (!el) return;
-                const y = el.getBoundingClientRect().top + window.scrollY - 80;
+                const y =
+                  el.getBoundingClientRect().top + window.scrollY - 80;
                 window.scrollTo({ top: y, behavior: "smooth" });
               }}
               className="px-5 py-3 rounded-full border border-gray-500 text-sm md:text-base text-gray-200 hover:border-blue-400 hover:text-white transition-colors"
@@ -53,9 +56,15 @@ export default function Hero() {
           </div>
 
           <div className="mt-8 flex flex-wrap gap-3 text-xs text-gray-400">
-            <span className="px-3 py-1 rounded-full border border-white/10">Python · SQL · R</span>
-            <span className="px-3 py-1 rounded-full border border-white/10">Power BI · Tableau</span>
-            <span className="px-3 py-1 rounded-full border border-white/10">Advanced Analytics – Big Data</span>
+            <span className="px-3 py-1 rounded-full border border-white/10">
+              Python · SQL · R
+            </span>
+            <span className="px-3 py-1 rounded-full border border-white/10">
+              Power BI · Tableau
+            </span>
+            <span className="px-3 py-1 rounded-full border border-white/10">
+              Advanced Analytics – Big Data
+            </span>
           </div>
         </div>
 
@@ -66,7 +75,9 @@ export default function Hero() {
             <div className="flex justify-between items-center mb-4">
               <div>
                 <p className="text-xs text-gray-400">Current role</p>
-                <p className="text-sm font-semibold">IT Business Analyst @ Agile Solutions</p>
+                <p className="text-sm font-semibold">
+                  IT Business Analyst @ Agile Solutions
+                </p>
               </div>
               <span className="inline-flex h-2 w-2 rounded-full bg-emerald-400"></span>
             </div>
@@ -101,6 +112,7 @@ export default function Hero() {
 
           </div>
         </div>
+
       </div>
     </section>
   );

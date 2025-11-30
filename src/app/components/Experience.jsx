@@ -1,3 +1,5 @@
+"use client";
+
 const items = [
   {
     title: "IT Business Analyst — Agile Solutions",
@@ -45,10 +47,10 @@ export default function Experience() {
         Experience
       </h2>
 
-      <div className="relative border-l border-white/10 pl-6 space-y-10">
+      {/* Removed the vertical line + dots */}
+      <div className="space-y-10">
         {items.map((item, idx) => (
-          <div key={idx} className="relative">
-            <span className="absolute -left-[9px] mt-1 h-4 w-4 rounded-full bg-blue-500 border-2 border-gray-950" />
+          <div key={idx}>
             <div className="bg-white/5 border border-white/10 rounded-2xl p-5 hover:border-blue-400/60 transition-colors">
               <h3 className="text-lg md:text-xl font-semibold mb-1">
                 {item.title}
