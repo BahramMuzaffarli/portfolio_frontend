@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Spotify from "./components/Spotify";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Projects />
         <Contact />
       </main>
+      <Spotify />
       <Footer />
     </div>
   );
