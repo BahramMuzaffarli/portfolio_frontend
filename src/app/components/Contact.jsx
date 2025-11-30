@@ -106,7 +106,7 @@ export default function Contact() {
 
           {/* LinkedIn */}
           <a
-            href="https://www.linkedin.com/in/bahram-muzaffarli/"
+            href="https://www.linkedin.com/in/bahram-muzaffarli-bhrmmuz/"
             target="_blank"
             className="p-3 rounded-xl bg-blue-600/20 border border-blue-500/40 hover:border-blue-300 hover:scale-110 transition"
           >
