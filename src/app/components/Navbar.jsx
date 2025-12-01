@@ -34,18 +34,14 @@ export default function Navbar() {
 
         {/* LOGO + NAME */}
         <div
-          className="flex items-center gap-2 cursor-pointer"
+          className="cursor-pointer"
           onClick={scrollToTop}
-        >
-          <img
-            src="/hamster.png"
-            alt="Logo"
-            className="w-7 h-7 object-contain invert brightness-150"
-          />
-          <span className="text-lg md:text-xl font-extrabold">
-            Bahram <span className="text-blue-400">Muzaffarli</span>
-          </span>
-        </div>
+          >
+            <span className="text-lg md:text-xl font-extrabold">
+              Bahram <span className="text-blue-400">Muzaffarli</span>
+            </span>
+          </div>
+
 
         {/* DESKTOP MENU */}
         <div className="hidden md:flex items-center gap-6">

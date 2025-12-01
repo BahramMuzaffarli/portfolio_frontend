@@ -15,7 +15,11 @@ export default function Hero() {
           </p>
 
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
-            Turning <span className="text-blue-400">data</span> into{" "}
+            Turning{" "}
+            <span className="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
+              data
+            </span>{" "}
+            into{" "}
             <span className="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
               decisions
             </span>
@@ -69,8 +73,8 @@ export default function Hero() {
         </div>
 
         {/* RIGHT — CARD */}
-        <div className="md:justify-self-end w-full max-w-md mx-auto">
-          <div className="relative rounded-3xl border border-white/10 bg-gradient-to-br from-blue-950/80 via-slate-900 to-slate-950 p-6 shadow-2xl shadow-blue-900/40">
+        <div className="md:justify-self-end w-full max-w-lg mx-auto">
+          <div className="relative rounded-3xl border border-white/10 bg-gradient-to-br from-blue-950/80 via-slate-900 to-slate-950 p-8 shadow-2xl shadow-blue-900/40">
 
             <div className="flex justify-between items-center mb-4">
               <div>

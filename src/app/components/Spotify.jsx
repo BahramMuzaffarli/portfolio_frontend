@@ -33,7 +33,7 @@ export default function Spotify() {
   return (
     <section
       id="spotify-playlists"
-      className="py-16 px-6 max-w-4xl mx-auto scroll-mt-24"
+      className="py-24 px-6 max-w-4xl mx-auto scroll-mt-24"
     >
       <h2 className="text-3xl md:text-4xl font-extrabold mb-3">
         My Spotify Playlists
@@ -49,11 +49,14 @@ export default function Spotify() {
           <button
             key={p.id}
             onClick={() => changePlaylist(p.id)}
-            className={`px-4 py-2 rounded-xl text-sm transition-all duration-200 relative ${
-              current === p.id
-                ? "bg-green-600 text-white shadow-lg shadow-green-500/40"
-                : "bg-white/10 text-gray-300 hover:bg-white/20"
-            }`}
+            className={`
+              px-4 py-2 rounded-xl text-sm transition-all duration-200 relative
+              ${
+                current === p.id
+                  ? "bg-gradient-to-r from-blue-600 to-cyan-400 text-white shadow-lg shadow-blue-500/40"
+                  : "bg-white/10 text-gray-300 hover:bg-white/20 hover:text-white"
+              }
+            `}
           >
             {p.name}
           </button>
@@ -62,7 +65,11 @@ export default function Spotify() {
 
       {/* Loader */}
       {loading && (
-        <div className="flex justify-center py-10">
+        <div className="flex flex-col items-center justify-center py-10">
+          <p className="text-gray-300 mb-4 text-sm tracking-wide">
+            Loading playlist...
+          </p>
+
           <div className="wheel-and-hamster scale-75">
             <div className="wheel"></div>
             <div className="hamster">
@@ -86,9 +93,11 @@ export default function Spotify() {
 
       {/* Spotify Player */}
       <div
-        className={`rounded-xl overflow-hidden border border-white/10 shadow-lg shadow-black/30 transition-opacity duration-300 ${
-          loading ? "opacity-0 pointer-events-none" : "opacity-100"
-        }`}
+        className={`
+          rounded-xl overflow-hidden border border-white/10 shadow-lg shadow-black/30
+          transition-opacity duration-300
+          ${loading ? "opacity-0 pointer-events-none" : "opacity-100"}
+        `}
       >
         <iframe
           key={current}

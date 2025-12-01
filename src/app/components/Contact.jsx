@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-20 px-6 max-w-4xl mx-auto scroll-mt-24"
+      className="py-24 px-6 max-w-6xl mx-auto scroll-mt-24"
     >
       <h2 className="text-3xl md:text-4xl font-extrabold mb-8 text-center">
         Contact
@@ -62,7 +62,7 @@ export default function Contact() {
                 href="tel:+994556660050"
                 className="text-white text-sm font-medium hover:text-green-400 transition"
               >
-                +994 55 666 00 50
+                +994 51 584 58 68
               </a>
             </div>
           </div>

@@ -4,9 +4,9 @@ export default function Education() {
   return (
     <section
       id="education"
-      className="py-24 px-6 max-w-5xl mx-auto scroll-mt-24"
+      className= "py-24 px-6 max-w-6xl mx-auto scroll-mt-24"
     >
-      <h2 className="text-3xl md:text-4xl font-extrabold mb-10">
+      <h2 className="text-3xl md:text-4xl font-extrabold mb-8">
         Education
       </h2>
 
