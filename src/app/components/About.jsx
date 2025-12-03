@@ -8,7 +8,7 @@ export default function About() {
 
       <div className="space-y-6 text-gray-300 leading-relaxed text-base md:text-lg">
         <p>
-          I am an <span className="text-white font-semibold">IT Business Analyst</span> 
+          I am an <span className="text-white font-semibold">IT Business Analyst </span> 
           with a Master’s degree in{" "}
           <span className="text-white font-semibold">
             Advanced Analytics – Big Data
