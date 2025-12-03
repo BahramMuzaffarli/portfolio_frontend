@@ -108,12 +108,13 @@ export default function Contact() {
           <a
             href="https://www.linkedin.com/in/bahram-muzaffarli-bhrmmuz/"
             target="_blank"
-            className="p-3 rounded-xl bg-blue-600/20 border border-blue-500/40 hover:border-blue-300 hover:scale-110 transition"
+            className="p-3 rounded-xl bg-blue-600/40 border border-blue-500/60 hover:border-blue-300 hover:scale-110 transition"
+            aria-label="LinkedIn"
           >
             <svg
               fill="currentColor"
               viewBox="0 0 24 24"
-              className="h-6 w-6 text-blue-400"
+              className="h-6 w-6 text-white"
             >
               <path d="M4.98 3.5C3.32 3.5 2 4.82 2 6.48c0 1.66 1.32 2.98 2.98 2.98h.02c1.66 0 2.98-1.32 2.98-2.98C7.98 4.82 6.66 3.5 4.98 3.5zM2.4 21.6h5.16V9H2.4v12.6zm7.92 0h5.16v-6.72c0-1.6.03-3.66 2.23-3.66 2.23 0 2.23 1.73 2.23 3.74v6.64h5.16v-7.12c0-3.52-.75-6.23-4.8-6.23-1.96 0-3.28 1.08-3.82 2.12h.06V9H10.32c.07 1.18 0 12.6 0 12.6z"/>
             </svg>

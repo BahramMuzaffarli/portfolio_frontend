@@ -73,13 +73,13 @@ export default function Hero() {
         </div>
 
         {/* RIGHT — CARD */}
-        <div className="md:justify-self-end w-full max-w-lg mx-auto">
-          <div className="relative rounded-3xl border border-white/10 bg-gradient-to-br from-blue-950/80 via-slate-900 to-slate-950 p-8 shadow-2xl shadow-blue-900/40">
+        <div className="md:justify-self-end w-full max-w-3xl mx-auto">
+          <div className="relative rounded-3xl border border-white/10 bg-gradient-to-br from-blue-950/80 via-slate-900 to-slate-950 p-10 shadow-2xl shadow-blue-900/40">
 
             <div className="flex justify-between items-center mb-4">
               <div>
                 <p className="text-xs text-gray-400">Current role</p>
-                <p className="text-sm font-semibold">
+                <p className="text-base md:text-lg font-bold">
                   IT Business Analyst @ Agile Solutions
                 </p>
               </div>

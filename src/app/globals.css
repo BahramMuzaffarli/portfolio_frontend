@@ -38,3 +38,15 @@ body {
 .animate-fadeIn {
   animation: fadeIn 0.4s ease-out forwards;
 }
+
+/*
+  Prevent the blinking text caret from appearing when users click non-input areas.
+  Make caret visible only inside form fields and contenteditable elements.
+*/
+* {
+  caret-color: transparent;
+}
+
+input, textarea, select, [contenteditable="true"], [contenteditable]:not([contenteditable="false"]) {
+  caret-color: auto !important;
+}

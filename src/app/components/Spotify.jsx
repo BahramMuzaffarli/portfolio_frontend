@@ -33,7 +33,7 @@ export default function Spotify() {
   return (
     <section
       id="spotify-playlists"
-      className="py-24 px-6 max-w-4xl mx-auto scroll-mt-24"
+      className="py-24 px-6 max-w-6xl mx-auto scroll-mt-24"
     >
       <h2 className="text-3xl md:text-4xl font-extrabold mb-3">
         My Spotify Playlists
@@ -49,14 +49,11 @@ export default function Spotify() {
           <button
             key={p.id}
             onClick={() => changePlaylist(p.id)}
-            className={`
-              px-4 py-2 rounded-xl text-sm transition-all duration-200 relative
-              ${
-                current === p.id
-                  ? "bg-gradient-to-r from-blue-600 to-cyan-400 text-white shadow-lg shadow-blue-500/40"
-                  : "bg-white/10 text-gray-300 hover:bg-white/20 hover:text-white"
-              }
-            `}
+            className={`px-4 py-2 rounded-xl text-sm transition-all duration-200 relative ${
+              current === p.id
+                ? "bg-blue-400 text-white shadow-lg shadow-blue-400/30"
+                : "bg-white/10 text-gray-300 hover:bg-white/20 hover:text-white"
+            }`}
           >
             {p.name}
           </button>
@@ -93,11 +90,9 @@ export default function Spotify() {
 
       {/* Spotify Player */}
       <div
-        className={`
-          rounded-xl overflow-hidden border border-white/10 shadow-lg shadow-black/30
-          transition-opacity duration-300
-          ${loading ? "opacity-0 pointer-events-none" : "opacity-100"}
-        `}
+        className={`rounded-xl overflow-hidden transition-opacity duration-300 ${
+          loading ? "opacity-0 pointer-events-none" : "opacity-100"
+        } border border-white/10 shadow-lg shadow-black/30`}
       >
         <iframe
           key={current}
@@ -107,6 +102,11 @@ export default function Spotify() {
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
           loading="lazy"
           className="w-full rounded-xl"
+          style={
+            current === "5k2f62r4rC2s421yDBXlnq"
+              ? { filter: "hue-rotate(-20deg) saturate(0.75) brightness(0.95)" }
+              : {}
+          }
           onLoad={() => setLoading(false)}
         ></iframe>
       </div>

@@ -47,7 +47,7 @@ export default function GlobalLoader({ children }) {
 
           {/* Loading Text */}
           <p className="text-gray-200 text-lg tracking-wide animate-pulse">
-            Səhifə yüklənir...
+            Loading...
           </p>
         </div>
       )}
