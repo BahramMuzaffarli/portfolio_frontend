@@ -11,9 +11,9 @@ import Education from "./components/Education";
 
 export default function Home() {
   return (
-    <div className="bg-gray-950 text-white min-h-screen">
+    <>
       <Navbar />
-      <main>
+      <main className="bg-gray-950 text-white min-h-screen">
         <Hero />
         <About />
         <Experience />
@@ -21,9 +21,9 @@ export default function Home() {
         <Skills />
         <Projects />
         <Contact />
+        <Spotify />
       </main>
-      <Spotify />
       <Footer />
-    </div>
+    </>
   );
 }

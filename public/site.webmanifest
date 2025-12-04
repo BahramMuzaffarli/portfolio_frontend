@@ -1,0 +1,17 @@
+{
+  "name": "Bahram Muzaffarli | Data Analyst & IT Business Analyst",
+  "short_name": "Bahram Muzaffarli",
+  "description": "Personal portfolio showcasing data analysis and business intelligence projects",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
