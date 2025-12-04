@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center px-6 pt-32 pb-16"
+      className="min-h-screen flex items-center justify-center px-6 pt-24 pb-16 scroll-mt-24"
     >
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         

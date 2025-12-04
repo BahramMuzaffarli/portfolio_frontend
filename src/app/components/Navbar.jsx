@@ -31,7 +31,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-black/40 backdrop-blur-xl border-b border-white/10" role="navigation" aria-label="Main">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-0.1 py-4 flex items-center justify-between">
 
         {/* LOGO + NAME */}
         <button
