@@ -1,24 +1,23 @@
-# My Awesome Website
+# Bahram Muzaffarli Portfolio
 
-This is a personal project built with [Next.js](https://nextjs.org) and [Tailwind CSS](https://tailwindcss.com).  
-The website is fully responsive and demonstrates my skills in web development and design.
+This is my personal portfolio website built with [Next.js](https://nextjs.org) to showcase my projects, skills, and certifications.
 
-## Live Demo
-Check out the live website here: [https://your-live-site-link.com](https://your-live-site-link.com)
+## Demo
+
+Live demo: [https://portfolio-frontend-ruby-three.vercel.app](https://portfolio-frontend-ruby-three.vercel.app)
 
 ## Features
-- Modern responsive design
-- Interactive UI components
-- Built with Next.js for fast performance
-- Optimized fonts using `next/font`
 
-## Screenshots
-![Home Page](./screenshot-home.png)
-![Another Page](./screenshot-other.png)
+- Showcases my personal projects
+- Lists my skills and technologies
+- Displays my professional certifications
+- Responsive design for mobile and desktop
+- Built with Next.js and Tailwind CSS
 
 ## Getting Started
-To run this project locally:
+
+First, clone the repository:
 
 ```bash
-npm install
-npm run dev
+git clone https://github.com/BahramMuzaffarli/portfolio_frontend.git
+cd portfolio_frontend
