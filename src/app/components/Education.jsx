@@ -12,9 +12,9 @@ export default function Education() {
 
       <div className="space-y-8">
         {/* Master's */}
-        <div className="bg-white/5 border border-white/10 p-6 rounded-2xl hover:border-blue-400/60 transition-colors duration-200">
+        <div className="bg-white/5 border border-white/10 p-6 rounded-2xl hover:border-blue-400/60 transition-colors">
           <h3 className="text-xl font-semibold">
-            Master’s in Big Data – Advanced Analytics
+            Master's in Big Data – Advanced Analytics
           </h3>
           <p className="text-gray-400 text-sm mt-1">
             Warsaw School of Economics (SGH), Poland · 2022–2025
@@ -27,9 +27,9 @@ export default function Education() {
         </div>
 
         {/* Bachelor's */}
-        <div className="bg-white/5 border border-white/10 p-6 rounded-2xl hover:border-blue-400/60 transition-colors duration-200">
+        <div className="bg-white/5 border border-white/10 p-6 rounded-2xl hover:border-blue-400/60 transition-colors">
           <h3 className="text-xl font-semibold">
-            Bachelor’s in Automation Engineering
+            Bachelor's in Automation Engineering
           </h3>
           <p className="text-gray-400 text-sm mt-1">
             Azerbaijan State Oil and Industry University (ASOIU) · 2018–2022

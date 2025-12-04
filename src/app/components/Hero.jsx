@@ -39,7 +39,7 @@ export default function Hero() {
                 download
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-5 py-3 rounded-full bg-blue-600 hover:bg-blue-500 font-medium text-sm md:text-base shadow-lg shadow-blue-500/30 transition-transform hover:-translate-y-0.5"
+                className="px-5 py-3 rounded-full bg-blue-600 hover:bg-blue-500 font-medium text-sm md:text-base shadow-lg shadow-blue-500/30 transition-all duration-200 hover:scale-[1.02]"
               >
                 Download CV
               </a>
@@ -53,7 +53,7 @@ export default function Hero() {
                     el.getBoundingClientRect().top + window.scrollY - 80;
                   window.scrollTo({ top: y, behavior: "smooth" });
                 }}
-                className="px-5 py-3 rounded-full border border-gray-500 text-sm md:text-base text-gray-200 hover:border-blue-400 hover:text-white transition-colors transform hover:-translate-y-0.5"
+                className="px-5 py-3 rounded-full border border-gray-500 text-sm md:text-base text-gray-200 hover:border-blue-400 hover:bg-white/10 transition-all duration-200 hover:scale-[1.02]"
               >
                 View Projects
               </button>

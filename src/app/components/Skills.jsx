@@ -27,7 +27,7 @@ export default function Skills() {
       <div className="grid md:grid-cols-3 gap-6">
 
         {/* TECHNICAL */}
-        <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
+        <div className="bg-white/5 border border-white/10 rounded-2xl p-5 hover:border-blue-400/60 transition-colors">
           <h3 className="font-semibold mb-4 text-lg">Technical</h3>
           <div className="flex flex-wrap gap-2 text-sm text-gray-200">
             {techSkills.map((s) => (
@@ -42,7 +42,7 @@ export default function Skills() {
         </div>
 
         {/* SOFT SKILLS */}
-        <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
+        <div className="bg-white/5 border border-white/10 rounded-2xl p-5 hover:border-blue-400/60 transition-colors">
           <h3 className="font-semibold mb-4 text-lg">Soft Skills</h3>
           <div className="flex flex-wrap gap-2 text-sm text-gray-200">
             {softSkills.map((s) => (
@@ -57,7 +57,7 @@ export default function Skills() {
         </div>
 
         {/* LANGUAGES → NOW MATCHES THE DESIGN */}
-        <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
+        <div className="bg-white/5 border border-white/10 rounded-2xl p-5 hover:border-blue-400/60 transition-colors">
           <h3 className="font-semibold mb-4 text-lg">Languages</h3>
           <div className="flex flex-wrap gap-2 text-sm text-gray-200">
             {languages.map((l) => (

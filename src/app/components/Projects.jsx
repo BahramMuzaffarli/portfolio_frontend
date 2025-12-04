@@ -44,7 +44,7 @@ export default function Projects() {
               href={repo.html_url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-white/5 border border-white/10 rounded-2xl p-5 hover:border-blue-400/60 hover:-translate-y-1 transition-all duration-200"
+              className="block bg-white/5 border border-white/10 rounded-2xl p-5 hover:border-blue-400/60 transition-colors"
             >
               <h3 className="font-semibold text-lg mb-1">
                 {repo.name.replace(/-/g, " ")}
